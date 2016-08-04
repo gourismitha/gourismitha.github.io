@@ -1,0 +1,81 @@
+/*body {
+	
+	background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}*/
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
+p, ul {
+
+	font-family: 'Lobster Two', cursive;
+	color: #7300e6;
+	font-size: 18px;
+	list-style: none; /* Is this ok or should ul be a separate selector */
+	/*  how do we use lobster two normal 400 and bold 700 in our css*/
+
+}
+
+h1, #slogan {
+
+	font-family: 'Lobster Two', cursive;
+	color: #7300e6;
+	font-size: 200%; /* what is the parent element here */
+	font-style: italic;
+	font-weight: bold;
+}
+
+.center {
+
+	text-align: center;
+}
+
+header {
+	background-color: #D866FF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer{
+	background-color: #D866FF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#two_column {
+    background-color: #6C337F;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #EBB3FF;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #EBB3FF;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
