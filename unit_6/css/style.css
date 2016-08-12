@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+* {margin:0;padding:0;box-sizing:border-box;}
 /*body {
 	
 	background-image: url("../images/hero.png");
@@ -5,7 +7,6 @@
     background-attachment: fixed;
     background-position: center; 
 }*/
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 
 p {
 
@@ -60,17 +61,28 @@ footer{
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 33.33%;
 }
-
+#left img {
+	width:100%;
+}
 #right {
     background-color: #EBB3FF;
     border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
+    padding: 2em;
+    float: left;
+    width: 65.66%;
+    margin-left: 1%;
 }
-
+#right img {
+	float:left;
+	height:auto;
+	padding:.5em;
+	width:33.33%;
+}
+#left, #right {
+	min-height: 22em;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
