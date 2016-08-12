@@ -7,7 +7,7 @@
 }*/
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 
-p, ul {
+p{
 
 	font-family: 'Lobster Two', cursive;
 	color: #7300e6;
