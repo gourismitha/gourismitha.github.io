@@ -7,12 +7,12 @@
 }*/
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
 
-p{
+p {
 
 	font-family: 'Lobster Two', cursive;
 	color: #7300e6;
 	font-size: 18px;
-	list-style: none; /* Is this ok or should ul be a separate selector */
+	list-style: none; 
 	/*  how do we use lobster two normal 400 and bold 700 in our css*/
 
 }
@@ -21,7 +21,7 @@ h1, #slogan {
 
 	font-family: 'Lobster Two', cursive;
 	color: #7300e6;
-	font-size: 200%; /* what is the parent element here */
+	font-size: 200%; 
 	font-style: italic;
 	font-weight: bold;
 }
