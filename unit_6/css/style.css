@@ -1,34 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
-* {margin:0;padding:0;box-sizing:border-box;}
+/* @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700); */
+/* @import url(https://fonts.googleapis.com/css?family=Dosis:400,600); */
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+
+* { 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 /*body {
 	
-	background-image: url("../images/hero.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
 }*/
 
 p {
-
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Rancho', cursive;
 	color: #7300e6;
-	font-size: 18px;
-	list-style: none; 
-	/*  how do we use lobster two normal 400 and bold 700 in our css*/
-
+	font-size: 150%; 
+    font-weight: 400;
 }
 
-h1, #slogan {
-
-	font-family: 'Lobster Two', cursive;
+h1{
+	font-family: 'Rancho', cursive;
 	color: #7300e6;
-	font-size: 200%; 
-	font-style: italic;
-	font-weight: bold;
+	font-size: 250%; 
+	font-weight: 600;   
+}
+
+#slogan {
+    font-family: 'Rancho', cursive;
+    color: #7300e6;
+    font-size: 200%; 
+    font-weight: 600; 
 }
 
 .center {
-
 	text-align: center;
 }
 
@@ -63,9 +67,11 @@ footer{
     float: left;
     width: 33.33%;
 }
+
 #left img {
 	width:100%;
 }
+
 #right {
     background-color: #EBB3FF;
     border: 1px black solid;
