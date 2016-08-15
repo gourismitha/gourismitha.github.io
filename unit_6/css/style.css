@@ -25,10 +25,10 @@ h1{
 	font-weight: 600;   
 }
 
-#slogan {
+h2 {
     font-family: 'Rancho', cursive;
     color: #7300e6;
-    font-size: 200%; 
+    font-size: 150%; 
     font-weight: 600; 
 }
 
