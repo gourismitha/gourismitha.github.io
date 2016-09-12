@@ -55,6 +55,12 @@ footer{
     text-align: center;
 }
 
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 #two_column {
     background-color: #6C337F;
     border: 1px black solid;
@@ -97,14 +103,4 @@ footer{
     content: " ";
     clear: both;
     height: 0;
-}
-
-@media only screen and (max-width: 480px) {
-
-#right #left {
-
-    float: none;
-    width: auto;
-}
-
 }
